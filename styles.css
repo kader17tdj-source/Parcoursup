@@ -1,6 +1,11 @@
 /* ==================================== */
 /* 1. PARAMÈTRES GÉNÉRAUX ET TYPOGRAPHIE */
 /* ==================================== */
+.logo-img {
+    height: 70px; /* J'ai augmenté un peu la taille pour qu'on voie bien le texte */
+    width: auto;
+    border-radius: 5px; /* Petit bonus : arrondit les coins de l'image */
+}
 body {
     font-family: 'Arial', sans-serif; /* Police moderne et lisible */
     margin: 0;
