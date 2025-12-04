@@ -1,72 +1,161 @@
-/* Réinitialisation de base */
+/* ==================================== */
+/* 1. PARAMÈTRES GÉNÉRAUX ET TYPOGRAPHIE */
+/* ==================================== */
 body {
-    font-family: 'Times New Roman', Times, serif; /* Police classique pour un travail académique */
+    font-family: 'Arial', sans-serif; /* Police moderne et lisible */
     margin: 0;
     padding: 0;
-    background-color: #F8F9FA; /* Fond très clair */
-    color: #333;
-    line-height: 1.6; /* Meilleure lisibilité du texte */
+    background-color: #f0f2f5; /* Fond très léger pour un look épuré */
+    color: #333; /* Texte noir foncé */
+    line-height: 1.6; /* Espacement confortable pour la lecture */
+    scroll-behavior: smooth; /* Défilement doux lors du clic sur les ancres */
 }
 
-/* Style de l'en-tête (Navigation) */
-header {
-    background-color: #1F4E79; /* Bleu Marine - Professionnel */
-    color: white;
-    padding: 25px 0;
+/* Conteneur principal qui centre le contenu */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Titre principal de la page */
+h1 {
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    margin-bottom: 10px;
-}
-
-/* Style des liens de navigation */
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-nav a:hover {
-    background-color: #4A90E2; /* Bleu plus clair au survol */
-}
-
-/* Style des sections (les 4 parties de votre texte) */
-main section {
-    padding: 50px 10%;
-    margin: 40px auto;
-    max-width: 950px;
+    color: #1F4E79; /* Bleu Marine - Professionnel et sérieux */
+    padding: 30px 0 15px;
+    margin-top: 0;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); /* Ombre douce */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    font-size: 2.5em;
+    font-weight: 700;
 }
 
-/* Style des titres de section (A, B, C...) */
-section h2 {
-    color: #D0021B; /* Un rouge-vif pour les titres principaux */
-    border-bottom: 2px solid #4A90E2;
-    padding-bottom: 15px;
-    margin-bottom: 30px;
+/* ==================================== */
+/* 2. STYLE DES ONGLETS (NAVIGATION) */
+/* ==================================== */
+
+nav {
+    background-color: #f8f9fa;
+    padding: 0 20px;
+}
+
+/* Liste des onglets */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/* Chaque onglet */
+nav li {
+    margin-right: 5px;
+}
+
+/* Style des liens d'ancrage (boutons d'onglets) */
+nav a {
+    text-decoration: none;
+    padding: 12px 18px;
+    display: block;
+    background-color: #e9ecef; /* Gris clair pour les onglets inactifs */
+    color: #495057;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Onglet survolé */
+nav a:hover {
+    background-color: #d8dee3;
+    color: #1F4E79;
+}
+
+/* Tentative de simuler l'onglet actif (HTML pur oblige) */
+/* Normalement, le CSS seul ne peut pas savoir quel lien est actif, mais on peut styliser la section ciblée */
+nav a:focus {
+    background-color: white;
+    color: #1F4E79;
+    border-color: #1F4E79;
+}
+
+/* ==================================== */
+/* 3. STYLE DU CONTENU DES SECTIONS */
+/* ==================================== */
+
+section {
+    padding: 40px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre douce pour un effet 3D */
+    border-left: 5px solid #4A90E2; /* Bande bleue élégante sur la gauche */
+}
+
+/* Titres de niveau 2 (Partie I, Partie II...) */
+h2 {
+    color: #1F4E79; /* Bleu Marine */
+    border-bottom: 2px solid #4A90E2; /* Ligne sous le titre */
+    padding-bottom: 10px;
+    margin-bottom: 25px;
     font-size: 1.8em;
 }
 
-/* Style pour les sous-titres (A, B, C...) */
-section h3 {
-    color: #1F4E79;
-    margin-top: 30px;
+/* Titres de niveau 3 (A), B)...) */
+h3 {
+    color: #D0021B; /* Rouge pour mettre en évidence les points clés */
+    margin-top: 35px;
     font-size: 1.4em;
 }
 
-/* Style pour la Bibliographie */
-#references {
-    margin-top: 50px;
-    padding: 30px 10%;
-    background-color: #e9ecef;
-    border-top: 1px solid #ccc;
-    text-align: left;
+/* Titres de niveau 4 (Sous-parties) */
+h4 {
+    color: #495057;
+    margin-top: 20px;
+}
+
+/* Style des paragraphes */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Mise en forme des citations (blocs de texte décalés) */
+blockquote {
+    border-left: 4px solid #4A90E2;
+    background-color: #f7faff;
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #555;
+}
+
+/* ==================================== */
+/* 4. STYLE DU PIED DE PAGE (BIBLIOGRAPHIE) */
+/* ==================================== */
+
+footer {
+    padding: 40px;
+    margin-top: 40px;
+    background-color: #e9ecef; /* Fond gris clair pour la section Références */
+    border-top: 3px solid #ccc;
+    border-radius: 0 0 8px 8px;
+}
+
+footer h2 {
+    color: #1F4E79;
+    border-bottom: 2px solid #aaa;
+    margin-bottom: 20px;
+}
+
+/* Listes de références (numérotées et à puces) */
+footer ol, footer ul {
+    padding-left: 20px;
+}
+
+footer li {
+    margin-bottom: 8px;
 }
