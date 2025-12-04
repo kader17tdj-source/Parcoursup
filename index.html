@@ -8,15 +8,7 @@
 </head>
 <body>
 
-    <header class="header-flex-container">
-        
-        <div class="header-content">
-            <div class="logo">
-                <img src="https://www.lyceedesmascareignes.org/wp-content/uploads/2024/01/parcoursup-scaled.jpg" alt="Logo Parcoursup" class="logo-img">
-            </div>
-            <h1>Analyse des critères de sélection de Parcoursup</h1>
-        </div>
-        
+    <header class="sticky-header">
         <nav>
             <ul>
                 <li><a href="#intro">Introduction</a></li>
@@ -28,27 +20,16 @@
         </nav>
     </header>
 
+    <div class="hero-section">
+        <h1>Analyse des critères de sélection de Parcoursup</h1>
+        
+        <img src="https://www.lyceedesmascareignes.org/wp-content/uploads/2024/01/parcoursup-scaled.jpg" 
+             alt="Logo Parcoursup" 
+             class="centered-banner-img">
+        
+    </div>
+
     <main>
-    ```
-
-### 2. 🎨 Modification du CSS (`styles.css`)
-
-C'est ici que nous utilisons Flexbox pour forcer l'alignement :
-
-Ouvrez votre fichier **`styles.css`** et **ajoutez/modifiez** les règles suivantes :
-
-**A. Définir le `header-content` comme Flexbox :**
-
-```css
-/* Règle pour aligner le logo et le titre côte à côte */
-.header-content {
-    display: flex; /* Active Flexbox */
-    align-items: center; /* Centre les éléments verticalement */
-    justify-content: center; /* Centre les éléments horizontalement dans le header */
-    padding: 20px 0;
-    width: 100%; /* S'assurer qu'il prend toute la largeur */
-}
-
         <section id="intro">
             <h2>Introduction et Problématique</h2>
             <p>
