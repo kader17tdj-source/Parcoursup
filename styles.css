@@ -14,15 +14,13 @@
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Petite ombre esthétique */
 }
 body {
-    font-family: 'Arial', sans-serif; /* Police moderne et lisible */
-    margin: 0;
-    padding: 0;
-    background-color: #f0f2f5; /* Fond très léger pour un look épuré */
-    color: #333; /* Texte noir foncé */
-    line-height: 1.6; /* Espacement confortable pour la lecture */
-    scroll-behavior: smooth; /* Défilement doux lors du clic sur les ancres */
+    font-family: 'Open Sans', sans-serif; /* Pour le texte normal */
+    /* ... reste du code ... */
 }
 
+h1, h2, h3, nav a {
+    font-family: 'Montserrat', sans-serif; /* Pour les titres et le menu */
+}
 /* Conteneur principal qui centre le contenu */
 main {
     max-width: 1000px;
