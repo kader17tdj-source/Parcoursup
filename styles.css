@@ -13,6 +13,56 @@
     border-radius: 8px;    /* Joli arrondi */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Petite ombre esthétique */
 }
+.resume-box {
+    background-color: #e3f2fd; /* Bleu très clair */
+    border-left: 5px solid #2196F3; /* Bordure bleue foncée */
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 0 8px 8px 0;
+}
+.resume-box h3 {
+    margin-top: 0;
+    color: #0d47a1;
+}
+.hero-banner {
+    /* L'image de fond */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://www.lyceedesmascareignes.org/wp-content/uploads/2024/01/parcoursup-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Hauteur de la bannière */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-banner h1 {
+    color: white; /* Titre en blanc */
+    background: none; /* Enlève le fond blanc du titre précédent */
+    box-shadow: none;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000000; /* Ombre pour lire le texte */
+}
+
+.hero-banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-start {
+    background-color: #D0021B; /* Bouton rouge */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.btn-start:hover {
+    transform: scale(1.1); /* Grossit un peu au survol */
+}
 body {
     font-family: 'Open Sans', sans-serif; /* Pour le texte normal */
     /* ... reste du code ... */
