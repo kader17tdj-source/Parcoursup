@@ -1,10 +1,17 @@
 /* ==================================== */
 /* 1. PARAMÈTRES GÉNÉRAUX ET TYPOGRAPHIE */
 /* ==================================== */
-.logo-img {
-    height: 15px; /* J'ai augmenté un peu la taille pour qu'on voie bien le texte */
-    width: auto;
-    border-radius: 5px; /* Petit bonus : arrondit les coins de l'image */
+/* ==================================== */
+/* 1. RÈGLE POUR L'IMAGE CENTRÉE (BANNIÈRE) */
+/* ==================================== */
+.centered-banner-img {
+    display: block;        /* Permet le centrage */
+    margin: 20px auto;     /* Centre l'image horizontalement et met de l'espace autour */
+    max-height: 150px;     /* Bloque la hauteur pour qu'elle ne soit pas immense */
+    width: auto;           /* Garde les proportions de l'image */
+    max-width: 90%;        /* Empêche l'image de dépasser sur les petits écrans */
+    border-radius: 8px;    /* Joli arrondi */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Petite ombre esthétique */
 }
 body {
     font-family: 'Arial', sans-serif; /* Police moderne et lisible */
