@@ -2,7 +2,7 @@
 /* 1. PARAMÈTRES GÉNÉRAUX ET TYPOGRAPHIE */
 /* ==================================== */
 .logo-img {
-    height: 15px; /* J'ai augmenté un peu la taille pour qu'on voie bien le texte */
+    height: 30px; /* J'ai augmenté un peu la taille pour qu'on voie bien le texte */
     width: auto;
     border-radius: 5px; /* Petit bonus : arrondit les coins de l'image */
 }
