@@ -1,1 +1,72 @@
+/* Réinitialisation de base */
+body {
+    font-family: 'Times New Roman', Times, serif; /* Police classique pour un travail académique */
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA; /* Fond très clair */
+    color: #333;
+    line-height: 1.6; /* Meilleure lisibilité du texte */
+}
 
+/* Style de l'en-tête (Navigation) */
+header {
+    background-color: #1F4E79; /* Bleu Marine - Professionnel */
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Style des liens de navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4A90E2; /* Bleu plus clair au survol */
+}
+
+/* Style des sections (les 4 parties de votre texte) */
+main section {
+    padding: 50px 10%;
+    margin: 40px auto;
+    max-width: 950px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); /* Ombre douce */
+}
+
+/* Style des titres de section (A, B, C...) */
+section h2 {
+    color: #D0021B; /* Un rouge-vif pour les titres principaux */
+    border-bottom: 2px solid #4A90E2;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+/* Style pour les sous-titres (A, B, C...) */
+section h3 {
+    color: #1F4E79;
+    margin-top: 30px;
+    font-size: 1.4em;
+}
+
+/* Style pour la Bibliographie */
+#references {
+    margin-top: 50px;
+    padding: 30px 10%;
+    background-color: #e9ecef;
+    border-top: 1px solid #ccc;
+    text-align: left;
+}
