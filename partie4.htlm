@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Partie III - Usages et Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="sticky-header">
+        <nav>
+            <ul>
+                <li><a href="index.html">🏠 Accueil</a></li>
+                <li><a href="partie1.html">Partie I</a></li>
+                <li><a href="partie2.html">Partie II</a></li>
+                <li><a href="partie3.html" style="color: #2563EB;">Partie III</a></li>
+                <li><a href="bibliographie.html">Bibliographie</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="partie3">
+    <h2>III. Utilisations, perceptions et légitimation des algorithmes locaux de Parcoursup</h2>
+
+    <p>
+        Ainsi, comme nous l’avons montré précédemment, les **algorithmes locaux** sont au cœur de la sélection sur **Parcoursup**. En effet, c’est à l’échelle de chaque formation que les critères de sélection sont choisis, ce qui n’a pas été très étudié par la littérature comme le regrette Eloi-Hammer :
+    </p>
+
+    <blockquote cite="Eloi‑Hammer, 2025">
+        <p>« Ces derniers sont pourtant responsables de l’essentiel de la sélection opérée, et déterminent donc la nature des éventuelles discriminations qui en découlent. »<small>[1]</small></p>
+    </blockquote>
+
+    <p>
+        C’est pour cette raison que nous avons décidé d’interroger des professeurs participant à la sélection au niveau local. Nous avons questionné un professeur de philosophie en **CPGE littéraire**, ainsi qu’un ancien professeur de **BTS** désormais en **CPGE scientifique** qui a pu nous relater ses différentes expériences en tant que sélectionneur. Ces deux professeurs sont issus de villes moyennes de la région Limousin et complètent bien l’analyse déjà effectuée par Eloi-Hammer. Enfin nous avons interrogé un étudiant qui était bachelier l’année dernière pour s’intéresser à la **perception** qu’il avait de ces algorithmes locaux.
+    </p>
+
+    <p>
+        Aux termes de ces entretiens trois constats se sont imposés : tout d’abord l’idée de **classement objectif est déconstruite** par le fait qu’il existe des utilisations différenciées de l’outil Parcoursup qui repose sur des choix, et que la place accordée à l’évaluation qualitative dépend des moyens des formations. Deuxièmement, de ces utilisations découlent des représentations et des appréhensions différentes de l’outil. Enfin, nos recherches nous ont conduit à affirmer que la part de **subjectivité et d’incertitude dans l’évaluation manuelle** des dossiers, renforcée notamment par l’arrivée de l’**IA générative**, contribue à légitimer davantage l’usage des algorithmes locaux dans Parcoursup.
+    </p>
+
+    <hr>
+
+    <h3 id="partie3-a">A- L’hétérogénéité des usages des algorithmes dépend des moyens des formations :</h3>
+
+    <p>
+        On peut lire sur le site officiel de Parcoursup cette affirmation :
+    </p>
+    <blockquote cite="https://www.parcoursup.gouv.fr/candidater-sur-parcoursup/comment-les-formations-examinent-les-candidatures-1357">
+        <p>« Non, la plateforme Parcoursup ne fait pas l’analyse des candidatures : ce n’est donc jamais un algorithme de Parcoursup qui décide de votre affectation. »<small>[2]</small></p>
+    </blockquote>
+
+    <p>
+        Cette information est véridique dans la mesure où ce sont effectivement les formations à l’échelle locale qui se chargent de la sélection. En revanche, l’**algorithme local** est bien mis en place grâce à l’outil **« Parcoursup admin »**, qui propose un cadre qui permet aux équipes chargées de la sélection dans chaque formation d’élaborer leur algorithme **fait-maison**. Au gré de nos entretiens, recoupés par des sources secondaires, nous avons constaté qu’il existe des différences significatives dans les utilisations de cet outil par les équipes enseignantes chargées de la sélection. Cette différence s'établit en fonction de la taille et de la nature des formations.
+    </p>
+
+    <p>
+        Il existe ainsi une tension entre une sélection davantage fondée sur l’algorithme qui est principalement la somme du coefficient accordé à chaque matière, et une sélection reposant sur la **pondération qualitative** effectuée dans un second temps par le professeur qui peut décider de changer le rang de classement donné par l’algorithme, avec l’analyse de la motivation et de la pertinence de la candidature. Le choix des formations face à cette tension dépendra alors des moyens humains de la formation ainsi que de la nature de ses besoins.
+    </p>
+
+    <p>
+        Pour la sélection à l’**université**, l’algorithme prend une place très importante puisque les moyens humains sont limités et les promotions très importantes. La sélection y a été introduite avec l’arrivée de Parcoursup et certaines universités n’ont simplement pas eu le temps d’élaborer une sélection complexe complétée par une sélection humaine faute de moyens. Ainsi, l’introduction de la sélectivité a été l’occasion de trier les élèves avec des algorithmes en fonction de **critères quantitatifs** tels que les notes ou le type de baccalauréat, et ce, malgré le fait que la plateforme affirme le contraire. En effet, Vincent Tiberj affirme que :
+    </p>
+    <blockquote cite="Vincent Tiberj, La Vie des idées, 2021">
+        <p>« Le poids des classements algorithmiques est lui-même minoré par Parcoursup […] les instructions officielles présentent l’outil comme une aide secondaire, à compléter par le jugement qualitatif des dossiers (bulletins, fiche avenir, parcours, motivation) »<small>[3]</small>.</p>
+    </blockquote>
+    <p>
+        Nous pouvons alors observer que dans le cadre de l’introduction de la sélectivité à l’université, la sélection algorithmique occupe une place centrale comme les travaux d’Eloi-Hammer<small>[4]</small> nous l’expliquent.
+    </p>
+
+    <p>
+        Au contraire, la sélection qualitative des dossiers occupe une place bien plus importante pour les **BTS** puisque les candidatures sont moins nombreuses. Il s'agit de vérifier que l’élève a des ambitions professionnelles cohérentes avec la formation. Les professeurs chargés de la sélection peuvent se permettre de regarder chaque dossier, et ce à plusieurs reprises, chacun étant évalué par deux correcteurs. La lettre n’est pas forcément lue en entier, mais elle est davantage prise en considération, et peut parfois servir à qualifier certains candidats. D’après le professeur de BTS et de CPGE scientifique que nous avons interrogé, la **lettre de motivation joue un rôle déterminant** pour les candidats de niveau moyen qui peuvent être abaissés ou remontés dans le classement. Face à notre question sur la délégitimation des lettres de motivation de Parcoursup sur les réseaux sociaux, illustrée par les nombreux exemples de candidats ayant été acceptés grâce à de simples recettes de cuisine, ce dernier répond : <em>« le gars voit une recette de cuisine, il se dit, elle s'est planté sur sa lettre de motivation, mais bon, elle a des super notes, les bulletins sont bons, eh bien, oui, on va la prendre. »</em>
+    </p>
+
+    <p>
+        Enfin, les **CPGE** ont des effectifs limités mais reçoivent davantage de candidatures : le contrôle qualitatif par les professeurs est donc moins accru mais reste toutefois déterminant, notamment pour évaluer le comportement des candidats dans les bulletins, qui peut être une cause de rejet de candidature. Il est également important de souligner que d’après les professeurs interrogés ce contrôle diffère en fonction des formations : en **littérature**, la place accordée à l’évolution qualitative est bien plus élevée qu’en **scientifique** où les notes sont primordiales. Le professeur de philosophie nous a affirmé que la qualité d’un élève ne peut se mesurer seulement à la mesure d’un algorithme mais s'appréhende surtout avec l’analyse de la lettre et des appréciations des professeurs sur le bulletin. Selon lui, le propre des CPGE situées en province est d’aider les élèves de niveau moyen à se **« métamorphoser »**, et ces élèves moyens prometteurs ne peuvent être correctement détectés par un algorithme.
+    </p>
+
+    <p>
+        Ainsi, le classement local n’est jamais une liste purement méritocratique, mais est d’abord le **reflet des besoins propres de chaque filière**, qui accordent plus ou moins d’importance à l’analyse qualitative, et qui doivent s’adapter aux flux de candidats en fonction de leurs moyens internes de classement. Si la plateforme est pensée comme un moyen de classer de manière neutre les candidatures,
+    </p>
+    <blockquote cite="Éloi-Hammer">
+        <p>« on ne peut pas se penser seulement comme un acte technique, dépendant des concepteurs et des possibilités d’une interface »</p>
+    </blockquote>
+    <p>
+        comme l’explique Éloi-Hammer dans son article. Comme nous avons pu le constater, les professeurs ignorent tout de la composition détaillée de l’algorithme quantitatif, bien que cette dernière soit publiquement affichée sur le site de Parcoursup. Eloi-Hammer rappelle à cet égard à propos de l’usage de Parcoursup à l’université :
+    </p>
+    <blockquote cite="Eloi-Hammer">
+        <p>« au-delà des principes défendus par ceux qui le conçoivent, un algorithme est le résultat de contextes organisationnels qui le dépassent et le contraignent »</p>
+    </blockquote>
+    <p>
+        Ainsi, l’algorithme peut occuper une place plus ou moins importante selon les besoins des formations, jusqu’à rendre l’outil si complexe que les sélectionneurs n’en maîtrisent plus le fonctionnement et sont incapables de l’expliquer.
+    </p>
+
+    <hr>
+
+    <h3 id="partie3-b">B - Des représentations sociales façonnées par ces usages : entre opacité, défiance et légitimité :</h3>
+
+    <p>
+        Les usages différenciés des algorithmes locaux expliquent l’existence de **représentations multiples**, aussi bien entre professeurs et élèves qu’entre enseignants appartenant à différentes filières. La véritable maîtrise de l’algorithme par les professeurs se situe au niveau de l’**analyse qualitative**, un aspect qui n’est pas assuré de manière homogène et qui explique en partie les appréciations contrastées de l’outil.
+    </p>
+
+    <p>
+        Tandis que les professeurs de sciences politiques (article de Eloi-Hammer), l’enseignant en CPGE scientifique reconnaît pour sa part l’**efficacité de l’algorithme**. Il nous a ainsi affirmé : <em>« Au final, moi, je trouve que ça marche pas si mal que ça »</em>, tout en reconnaissant que l’efficacité du système dépend des moyens humains des formations, comme lui ont fait remarquer des amis professeurs d’université : <em>« je pense qu'ils n'ont pas les moyens physiquement de lire chaque dossier »</em>. Ainsi ce dernier **ne regrette pas l’ancien système APB** et pense même que le système n’a rien changé pour les BTS et les CPGE : <em>« C’était plus ouvert et on laissait davantage de liberté aux professeurs, mais globalement, c’était la même chose. »</em>
+    </p>
+
+    <p>
+        À l’inverse, le professeur de philosophie a une **perception négative** de l’arrivée d’un algorithme dans la sélection des dossiers : <em>« Moi, je n’ai pas besoin d’algorithme »</em>. Il dit y être opposé parce qu’il a l’impression qu’on **« trie les patients »**. Selon lui, la finalité du dispositif a changé : ce qui prime désormais c’est la gestion et l’administration et non plus l’intérêt des élèves. Il parle d’un **« grand flou artistique »**. Pour lui, le système idéal resterait une sélection « à l’ancienne », fondée sur l’examen direct par les professeurs des dossiers qui serait un changement majeur en permettant : **« la reconsidération des profs et leur responsabilisation »**. Il voit dans Parcoursup <em>« un élément de plus pour dévaloriser les professeurs »</em>, comme si l’on considérait qu’<em>« on ne peut pas les laisser trier seuls »</em>. L’algorithme n’a pas pour seule conséquence la dévalorisation des enseignants, il provoquerait également une perte d’efficacité : <em>« Ça ne nous fait pas gagner du temps, au contraire : ça nous rend suspicieux. »</em> Il admet néanmoins que ce besoin de qualitatif est peut-être **« propre à la filière littéraire »**. En philosophie, explique-t-il, des élèves moyens peuvent révéler une véritable capacité intellectuelle que le système scolaire ne détecte pas toujours : les **« esprits indociles »** peuvent se révéler être excellents en philosophie. L’algorithme est ainsi perçu comme un moyen important de dépréciation.
+    </p>
+
+    <p>
+        Enfin, l’élève que nous avons interrogé voit les algorithmes locaux comme des systèmes **opaques**. Cette opacité a d’ailleurs été soulignée par la **Cour des comptes** dans un rapport en 2020<small>[5]</small>. Pour lui, derrière l’évaluation des dossiers, tout est possible : manipulations, choix arbitraires, etc. Derrière un refus d’une formation, l’on ne sait jamais comment concrètement le choix a été fait puisqu'aucune formation n’est tenue de tenir des comptes. Au départ, ce dernier avait choisi des prépas sélectives en fonction de ce qu’il pensait valoir, surtout à partir de ses bulletins et non de son dossier. Cette stratégie s’est retournée contre lui puisqu’il a été accepté dans toutes les prépas, ce qui montre que son estimation n’était pas juste et qu’il aurait pu candidater dans de meilleures formations. Il affirme : <em>« la sélection est complètement biaisée parce que tu crois qu'il y a 10% des gens qui ont été pris le méritaient mais alors ça se fait du tout parce qu'il y a des gens qui n'ont même pas tenté leur truc »</em>. Cette mauvaise stratégie de candidature serait pour lui liée à une **forte pression mentale**. Prendre le temps de réfléchir à Parcoursup n’est pas simple en terminale et la plateforme fondée sur des algorithmes rend le processus de sélection mécanique, inhumain et superficiel. En un instant, il est possible de se connecter sur le site et de choisir sans être bien informé et sans réflexion approfondie puis candidater dans une formation. Enfin il y aurait un **biais géographique** qui l’aurait pénalisé étant donné qu’il venait du Limousin : <em>« ça change tout, si tu mets ton lieu de résidence à Paris, t'as plus de chances d'être accepté »</em>.
+    </p>
+
+    <hr>
+
+    <h3 id="partie3-c">C- Les limites de l’analyse quantitative des dossiers (anonymisation et les conséquences de l’IA générative) renforcent la légitimité de l’algorithme :</h3>
+
+    <p>
+        Il est clairement affirmé sur la plateforme officielle de Parcoursup que
+    </p>
+    <blockquote cite="https://www.parcoursup.gouv.fr/faq/thematiques/fonctionnement-de-parcoursup/examen-des-voeux-par-les-formations">
+        <p>« L'anonymisation du nom, prénom, adresse du domicile et âge du candidat est assurée dans les dossiers Parcoursup. »<small>[6]</small></p>
+    </blockquote>
+    <p>
+        Cependant, le professeur en CPGE TSI nous a affirmé sous couvert d’anonymat que si l’anonymisation est assurée en **BTS**, elle ne l’est **pas en CPGE** : <em>« on a des dossiers avec leur nom, leur prénom et on a des dossiers complets. Alors ça je sais pas pourquoi. »</em>. Ce fait souligné par le professeur soulève deux problèmes. Premièrement, il y a un flou dans l’organisation de la sélection pour les évaluateurs eux-mêmes qui ne savent pas expliquer pour quelles raisons les dossiers ne sont pas anonymisés en CPGE. Deuxièmement, la littérature montre bien que l’accès aux prénoms peut être générateur de **biais** dans le cadre d’une évaluation humaine en fonction de l’origine sociale ou culturelle du candidat.<small>[7]</small>
+    </p>
+
+    <p>
+        Par ailleurs, il ressort de notre enquête que les lettres de motivations sont de **moins en moins utilisées** par les correcteurs dans l’évaluation qualitative en raison de l’**IA**. En effet, ces derniers ne savent plus distinguer si l’élève est l’auteur de sa lettre ou non tant celles-ci sont impersonnelles et très bien rédigées. Le professeur en CPGE TSI nous a affirmé que : <em>« la lettre de motivation, aujourd'hui, pour moi, je m'en méfie parce que : est-ce que c'est le gars qui l'a écrite ? »</em>. Cette dernière n’est ainsi prise en compte qu’en fonction du dossier général du candidat, et aussi, paradoxalement, si elle n’est pas très bien écrite : <em>« si c'est mal écrit, ça prouve que l'élève l'a écrit lui-même. »</em> affirme le professeur de CPGE TSI. En CPGE littéraire, la problématique est encore plus cruciale puisque le niveau d’écriture est un critère central dans la sélection, qui ne peut plus être vraiment pris en compte. Ainsi le professeur de philosophie nous a confié qu’il avait conseillé son fils de la façon suivante lorsque ce dernier candidatait sur Parcoursup : <em>« je lui ai dit la lettre de motivation, tu fais deux lignes juste pour dire que tu l'as faite, mais deux lignes seulement, personne ne va la lire. »</em>. Avec un brin de cynisme, ce dernier reconnaît que l’**intelligence artificielle générative** a un avantage : elle a mis fin aux inégalités générées par la différence entre les candidats ayant des parents pouvant corriger la lettre et les autres ne disposant pas du même avantage. L’étudiant interrogé est de son côté persuadé que les professeurs ne lisent pas les lettres de motivation : il a envoyé une lettre de motivation de deux lignes et a été accepté au sein de l’université demandée. Ainsi; il ressort de nos recherches que la lettre de motivation, élément central dans l’analyse humaine des candidatures, se trouve en même temps **dépréciée** par les candidats et les évaluateurs.
+    </p>
+
+    <p>
+        Ces deux limites à l’analyse qualitative des dossiers qui peut sembler à certains égards davantage biaisée que le classement résultant d’un algorithme réputé neutre, ont été plus ou moins explicitement reconnues par les personnes que nous avons interrogées. Si l’ancien bachelier interrogé est persuadé que l'algorithme est biaisé, il pense également que l’évaluation qualitative des dossiers est une source de discrimination du fait d’un manque d’anonymisation. C’est ainsi que malgré sa critique de l’algorithme, il conclut vis-à-vis des notes : <em>“ franchement je vois pas d'autres solutions.”</em>, reconnaissant implicitement que le système le plus neutre possible c’est l’analyse des notes par l’algorithme. Le professeur de CPGE scientifique nous confie également : <em>“Franchement, montrez-moi quelque chose qui marche mieux.”</em> en évoquant l’algorithme et les notes.
+    </p>
+
+    <p>
+        C’est pourquoi nous pensons que la **légitimation de l’algorithme** découle de la **dépréciation de l’analyse qualitative** (exception faite du professeur de philosophie interrogé pour sa matière spécifique) qui révèle bien l’**aura des chiffres et des sciences** dans la société. C’est là l’avènement de ce que formule Guy Palmade :
+    </p>
+    <blockquote cite="Guy Palmade">
+        <p>“Il n'y a de science que du mesurable et tout ce qui ne peut s'y prêter doit être abandonné”</p>
+    </blockquote>
+    <p>
+        La sélection la plus juste d’un candidat se ferait par la **mesure de ses notes**, et non pas par des appréciations qualitatives considérées comme non fiables.
+    </p>
+           <div style="text-align: center; margin-top: 50px;">
+                <a href="bibliographie.html" class="btn-start" style="background-color: #D97706;">Accéder à la Bibliographie 📚</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 - Dossier Parcoursup</p>
+    </footer>
+</body>
+</html>
